@@ -1,31 +1,35 @@
-body	{ background-color: #272727;
-	  color: #747474;
+body	{ background-color: white;
+	  color: black;
 	  font-family: "Times New Roman", Times, serif }
-h1	{ background-color: #272727;
-	  color: #FFE400;
-	  font-family: "Times New Roman", Times, serif;
-	  text-align: center;
-	  font-size: 3em;
-	  padding: 70px; }
+h1	{ background-color: #221e22;
+	  color: white;
+	  font-family: 'Orienta', sans-serif;
+	  font-size: 45 px;
+	  font weight: normal;
+  	  line-height: 24px;
+	  margin: 0 0 24px;
+	  text-align: right;
+  	  padding: 30px }
 ul	{ display: inline;
 	  text-decoration: none; }
-div	{ background-color: #272727;
-	  color: #747474;
-	  font-size: 18pt;
-	  padding: 50px; }
+div	{ background-color: #dcd6f7;
+	  color: #221e22;
+	  font-size: 18pt; }
 nav ul  { list-style-type: none;
-	  text-align: center;
+	  text-align: right;
   	  margin: 0;
   	  padding: 0;
   	  overflow: hidden;
-  	  background-color: #333; }
-li 	{ float: left; }
+  	  background-color: #dcd6sf;
+	  color: black; }
 li a 	{ display: block;
+	  background-color: #221e22;
           color: white;
-  	  text-align: center;
+	  font-weight: 300;
+	  text-align: right;
   	  padding: 14px 16px;
    	  text-decoration: none; }
-li a:hover { background-color: #FFE400; }
+li a:hover { background-color: #44355b; }
 
 .humanity  {  display: block;
 	      margin-left: auto;
@@ -59,8 +63,8 @@ hr {
 }
 
 .registerbtn {
-  background-color: #FFE400;
-  color: ;
+  background-color: #44355b;
+  color: white;
   padding: 16px 20px;
   margin: 8px 0;
   border: none;
@@ -74,11 +78,50 @@ hr {
 }
 
 a {
-  color: dodgerblue;
+  color: 31263e;
 }
 
 
 .signin {
-  background-color: #f1f1f1;
+  background-color: #31263e;
   text-align: center;
+}
+
+table { margin: auto;
+        border: 5px solid #000066;
+        width: 600px; 
+	text-align: center;}
+
+header, nav, main, footer, aside { display: block; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+       background-color:ff7f11; }
+#container { background-color: #ff3f00;
+	     color: #2f230f;
+	     min-width: 960px;
+	     font-family: veranda, arial, sans-serif; }
+
+header { background-color: #221e22;
+	 color: #dcd6f7;
+	 text-align: right;
+	 padding: 0 20px;
+	 border-bottom: 2px solid #000000; }
+nav { float: left;
+      width: 150px; }
+aside { float: right;
+	width: 200px; }
+main { margin: 0 210px 0 160px;
+       padding: 1px 10px 20px 10px;
+       background-color: white;
+       color: #31263E; }
+footer	{ font-size: .70em;
+	  text-align: center;
+	  color: white;
+	  background-color: #31263e;
+	  padding-top: 10px;
+	  clear: both; }
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
 }
